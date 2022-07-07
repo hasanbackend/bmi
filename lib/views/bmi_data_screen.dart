@@ -83,7 +83,7 @@ class _BmiDataScreenState extends State<BmiDataScreen> {
           ),
           child: const Center(
             child: Text(
-              "Hitung BMI",
+              "Calculate BMI",
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.bold,

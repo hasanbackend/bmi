@@ -72,7 +72,7 @@ class BmiResultScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Center(
           child: Text(
-            "Hasil Hitung BMI",
+            "Count Resault BMI",
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold,
@@ -85,7 +85,7 @@ class BmiResultScreen extends StatelessWidget {
           const Expanded(
             child: Center(
               child: Text(
-                "Hasil Perhitungan",
+                "Calculation Resault",
                 style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
@@ -139,7 +139,7 @@ class BmiResultScreen extends StatelessWidget {
               color: const Color(0xff517df6),
               child: const Center(
                 child: Text(
-                  "Hitung Ulang",
+                  "Recalculate",
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
