@@ -9,7 +9,7 @@
             "name": "bmi",
             "request": "launch",
             // "deviceId": "chrome",
-            "deviceId": "HQIJINRW6T9DAAVC",
+            // "deviceId": "HQIJINRW6T9DAAVC",
             "type": "dart"
         },
         {

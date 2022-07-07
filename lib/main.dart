@@ -13,13 +13,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           primaryColor: primaryColor,
-          scaffoldBackgroundColor: primaryColor,
+          scaffoldBackgroundColor: Colors.grey,
           appBarTheme: const AppBarTheme(
               // #0A0E21
-              backgroundColor: primaryColor),
+              iconTheme: IconThemeData(color: primaryColor),
+              titleTextStyle: TextStyle(color: primaryColor),
+              backgroundColor: Colors.white),
           // This is the theme of your application.
           //
           // Try running your application with "flutter run". You'll see the
